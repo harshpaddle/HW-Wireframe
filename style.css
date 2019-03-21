@@ -1,0 +1,58 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+  background: #777;
+  width: 960px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+header, nav, section, aside, footer {
+  background: #ebebeb;
+  
+}
+
+article {
+  color: #ebebeb;
+  background: #777;
+}
+
+h1, p {
+  color: #777;
+  background: #ebebeb;
+}
+
+header {
+  padding: 30px 0px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav {
+  padding: 30px 0px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 25px 0px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  float: left;
+  width: 500px;
+}
+
+aside {
+  /* margin-left: 10px; */
+  float: right;
+  width: 420px;
+  text-align: center;
+  padding: 10px 0px 100px 0px;;
+
+}
+
+footer {
+  clear: both;
+}
