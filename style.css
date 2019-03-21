@@ -6,6 +6,7 @@ body {
   width: 960px;
   font-size: 16px;
   margin: 0 auto;
+  margin-bottom: 5px;
 }
 
 header, nav, section, aside, footer {
@@ -36,23 +37,41 @@ nav {
 }
 
 section {
-  padding: 25px 0px;
+  padding: 0px 0px 5px 0px;
   text-align: center;
-  margin-bottom: 10px;
-  margin-right: 10px;
+
   float: left;
   width: 500px;
+  margin-bottom: 10px;
 }
 
 aside {
-  /* margin-left: 10px; */
+  margin-left: 6px;
   float: right;
-  width: 420px;
+  width: 440px;
   text-align: center;
-  padding: 10px 0px 100px 0px;;
+  padding: 10px 0px 165px 0px;;
 
+}
+
+article {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
 }
 
 footer {
   clear: both;
+  padding: 30px;
+  text-align: center;
+
+}
+
+h1, p {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
 }
